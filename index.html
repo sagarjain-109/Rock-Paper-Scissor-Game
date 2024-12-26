@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissor</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <h1 id="heading">Rock-Paper-Scissors</h1>
+  </header>
+  <div class="container">
+    <div class="innerContainer">
+        <button class="button" id="paper" onclick="clicked('Paper'); "></button>
+        <button class="button" id="rock" onclick="clicked('Rock'); "></button>
+        <button class="button" id="scissor" onclick="clicked('Scissor'); "></button>
+    </div>
+    <div class="resultContainer">
+      <div class="scores">
+        <div class="userS">
+            <span>Your Score: </span>
+            <span id="userScore"></span>
+        </div>
+        <div class="computerS">
+            <span>Computer Score: </span>
+            <span id="ComputerScore"></span>
+        </div>
+      </div>
+      <div class="summary"></div>
+      <div class="button_2">
+        <button onclick="reset();">Reset</button>
+      </div>
+    </div>
+  
+  </div>
+  <footer>
+    <p id="footer">&copy; 2024 Rock Paper Scissors Game. All rights reserved.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
