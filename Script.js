@@ -1,3 +1,15 @@
+// let button = document.querySelectorAll(".button");
+
+// for (let btn in button){
+//   button.addEventListener("mouseenter",()=>{
+//     button.style.border = "2px solid black";
+//   })
+//   button.addEventListener("mouseout",()=>{
+//     button.style.border = "";
+//   })
+// }
+
+
 let score = {
   userScore: 0,
   computerScore:0,

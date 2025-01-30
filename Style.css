@@ -11,6 +11,10 @@
   text-align: center; 
   background-color: #e5e5e5;
 }
+.button:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
 .container{
   height: 80vh;
   background-image: url(./media/image_1.avif);
