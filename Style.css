@@ -89,3 +89,56 @@ table{
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+
+
+@media (max-width: 600px) {
+
+  #btn_reset{
+    margin: 15px;
+  }
+
+  #heading {
+    font-size: 6vw;
+    height: auto;
+    padding: 10px 0;
+  }
+  .innerContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .button {
+    width: 35vw;
+    height: 35vw;
+    max-width: 90px;
+    max-height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+  }
+  .resultContainer {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 300px) {
+
+  #btn_reset{
+    margin: 15px;
+  }
+  #heading {
+    font-size: 5vw;
+    height: auto;
+  }
+  .button {
+    width: 25vw;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #footer {
+    font-size: 1em;
+  }
+}
